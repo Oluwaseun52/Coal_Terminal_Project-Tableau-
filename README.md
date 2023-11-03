@@ -8,10 +8,10 @@ This repository presents a comprehensive analysis of a coal terminal's maintenan
 The project delves into data analysis, predictive insights, and statistical operations to determine when these machines require maintenance, following specific criteria. The core challenge was to identify when a machine experienced at least an 8-hour period in the previous month with an average idle capacity exceeding 10%.
 
 ## Objectives
--Maintenance Optimization: Determine the machines requiring maintenance to minimize downtime and revenue loss.
--Data Analysis: Utilize advanced analytical techniques and statistical operations to assess machine performance.
--Irregularity Resolution: Address data irregularities caused by stack-reclaimers working as stackers rather than reclaimers.
--Predictive Insights: Identify trends and patterns to proactively schedule maintenance.
+- Maintenance Optimization: Determine the machines requiring maintenance to minimize downtime and revenue loss.
+- Data Analysis: Utilize advanced analytical techniques and statistical operations to assess machine performance.
+- Irregularity Resolution: Address data irregularities caused by stack-reclaimers working as stackers rather than reclaimers.
+- Predictive Insights: Identify trends and patterns to proactively schedule maintenance.
 
 ## Key Insights
 Data Exploration:
@@ -23,16 +23,16 @@ Detected data irregularities, especially for SR1 and SR4A when they functioned a
 Deployed an 8-hour daytime moving average to visualize machines spiking above the 10% threshold, providing a more accurate assessment.
 
 ## Maintenance Recommendations
--Identified that Reclaimer 1 (RL1) currently requires maintenance as its average idle capacity consistently exceeded the  8-hour threshold.
--Recognized a spike in Stack-Reclaimer 6 (SR6), attributed to an agreement with Reclaimer 2 (RL2), allowing one machine to work at full capacity.
--The trendline analysis for Stack-Reclaimer 4A (SR4A) indicated an imminent need for maintenance, even though it hadn't surpassed the 10% threshold.
+- Identified that Reclaimer 1 (RL1) currently requires maintenance as its average idle capacity consistently exceeded the  8-hour threshold.
+- Recognized a spike in Stack-Reclaimer 6 (SR6), attributed to an agreement with Reclaimer 2 (RL2), allowing one machine to work at full capacity.
+- The trendline analysis for Stack-Reclaimer 4A (SR4A) indicated an imminent need for maintenance, even though it hadn't surpassed the 10% threshold.
 
 ## Recommendations
 Based on the analysis, the following maintenance recommendations are made:
 
--Prioritize maintenance for Reclaimer 1 (RL1) immediately, given its consistent performance below the standard.
--Monitor Stack-Reclaimer 6 (SR6) for potential future maintenance, considering the cooperative agreement with Reclaimer 2.
--Schedule maintenance for Stack-Reclaimer 4A (SR4A) in the near future based on the trendline analysis.
+- Prioritize maintenance for Reclaimer 1 (RL1) immediately, given its consistent performance below the standard.
+- Monitor Stack-Reclaimer 6 (SR6) for potential future maintenance, considering the cooperative agreement with Reclaimer 2.
+- Schedule maintenance for Stack-Reclaimer 4A (SR4A) in the near future based on the trendline analysis.
 
 These recommendations aim to enhance operational efficiency, reduce revenue losses, and empower the coal terminal to make proactive and data-driven maintenance decisions.
 
